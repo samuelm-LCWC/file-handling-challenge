@@ -1,6 +1,7 @@
 import task
 import pytest
-from unittest.mock import patch
+from unittest.mock import patch, mock_open
+import json
 
 def test_task_1():
     result = task.task_1()
